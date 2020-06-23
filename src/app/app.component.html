@@ -4,7 +4,7 @@
     <h1>Welcome to Github-Search</h1>
   </div>
   <div>
-    <div class="users"><h2>Search Profile :</h2><input type="text" name="username" (keyin)="findProfile()" [(ngModule)]="username" placeholder="Type any Github name" id="txtbox"> 
+    <div class="users"><h2>Search Profile :</h2><input type="text" name="username" (keyin)="findProfile()" (ngModule)="username" placeholder="Type any Github name" id="txtbox"> 
     </div>
     <div class="container-fluid" *ngIf="profile">
   
