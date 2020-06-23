@@ -4,18 +4,18 @@
     <h1>Welcome to Github-Search</h1>
   </div>
   <div>
-    <div class="users"><h2>Search Profiles :</h2><input type="text" name="username" (keyin)="findProfile()" [(ngModule)]="username" placeholder="Type any Github name" id="txtbox"> 
+    <div class="users"><h2>Search Profile :</h2><input type="text" name="username" (keyin)="findProfile()" [(ngModule)]="username" placeholder="Type any Github name" id="txtbox"> 
     </div>
     <div class="container-fluid" *ngIf="profile">
   
       <div class="row p-2">
         <div class="col-sm-2">
-          <img src="{{profile.avatar_url}}" class="rounded-circle img-fluid img-responsive" alt="Image Missing">
+          <img src="{{profile.avatar_url}}" class="square img-fluid img-responsive" alt="Image Missing">
           <p><a href="{{profile.html_url}}" target="blank" class="btn btn-lg btn-success mt-3 ml-5">View Profile from Github</a></p>
         </div>
 
         <div class="col-sm-2">
-          <ul class="list-group">
+          <ul class="list-group-item">
             <li class="list-group-item">Biography : {{profile.bio}}</li>
             <li class="list-group-item">Blog : {{profile.blog}}</li>
             <li class="list-group-item">Company : {{profile.company}}</li>
@@ -28,19 +28,21 @@
         <div class="col-sm-2">
           <div>
             <p>
-              <span class="badge badge-primary p-1">Followers : {{profile.followers}}</span>
-              <span class="badge badge-success p-1 ml-1">Following : {{profile.following}}</span>
-              <span class="badge badge-dark p-1 ml-1">Public_Repos : {{profile.public_repos}}</span>
-               <span class="badge badge-info p-1 ml-1">Public_Gists : {{profile.public_gists}}</span>
+              <span class="badge-primary p-1">Followers : {{profile.followers}}</span>
+              <span class="badge-success p-1 ml-1">Following : {{profile.following}}</span>
+              <span class="badge-dark p-1 ml-1">Public_Repos : {{profile.public_repos}}</span>
+               <span class="badge-info p-1 ml-1">Public_Gists : {{profile.public_gists}}</span>
 
             </p>
+
+
             
             <div class="card">
               <div class="card-header">
                 <h2>Repositories</h2>
               </div>
               <div class="card-body" *ngFor="let repo of repos">
-                <a href="{{repo.html_url}}" target="blank" class="btn btn-warning">View Project</a> &nbsp;{{repo.name}} -
+                <a href="{{repo.html_url}}" target="blank" class="btn btn-attention">View Project</a> &nbsp;{{repo.name}} -
                 {{repo.description}}
               </div>
             </div>
