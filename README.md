@@ -27,7 +27,7 @@ Its an application that enable one search other peoples repositories.
   We have no known bugs yet but incase you find any,please feel to contact us through the email below:ivinekemuma014@gmail.com
 
 ## Support and contact detail
-   You can contact me via my email at ivinekemuma014@gmail.com for any enquiries in case of any problems.You can inform me of any bug and any development you may want to make.
+   You can contact me via my email at ivinekemuma014@gmail.com for any enquiries.
 
 License
 
