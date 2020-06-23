@@ -15,14 +15,15 @@ Its an application that enable one search other peoples repositories.
 
  *code
 
- ## Technologies used
+ ### Technologies used
+
  *html
 
  *css
 
  *Bootstrap
 
- ## Known Bugs
+ ### Known Bugs
 
   We have no known bugs yet but incase you find any,please feel to contact us through the email below:ivinekemuma014@gmail.com
 
