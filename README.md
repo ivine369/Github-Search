@@ -4,7 +4,7 @@
 
 ## Description of the app
 
-Its an application that enable one search other peoples repositories
+Its an application that enable one search other peoples repositories.
 
 ## Installation/Set-up installation
  *Open Terminal
@@ -16,9 +16,9 @@ Its an application that enable one search other peoples repositories
  *code
 
  ## Technologies used
- *HTML
+ *html
 
- *CSS
+ *css
 
  *BOOTSTRAP
 
