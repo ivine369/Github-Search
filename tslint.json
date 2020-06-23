@@ -104,11 +104,11 @@
           "variable-declaration": "nospace"
         },
         {
-          "call-signature": "onespace",  <span class="badge badge-info p-1 ml-1">Public_Gists : {{profile.public_gists}}</span><span class="badge badge-info p-1 ml-1">Public_Gists : {{profile.public_gists}}</span>
-          "index-signature": "onespace",
-          "parameter": "onespace",
-          "property-declaration": "onespace",
-          "variable-declaration": "onespace"
+          "call-signature": "onespace",  <span class ="badge badge-info p-1 ml-1">Public_Gists : {{profile.public_gists}}</span><span class="badge badge-info p-1 ml-1">Public_Gists : {{profile.public_gists}}</span>
+          "index-signature", "onespace",
+          "parameter","onespace",
+          "property-declaration", "onespace",
+          "variable-declaration", "onespace"
         }
       ]
     },
