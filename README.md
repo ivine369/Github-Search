@@ -20,7 +20,7 @@ Its an application that enable one search other peoples repositories.
 
  *css
 
- *BOOTSTRAP
+ *Bootstrap
 
  ## Known Bugs
 
