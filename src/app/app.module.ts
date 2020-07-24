@@ -1,24 +1,32 @@
  
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';
+import { Component } from '@angular/core';
 import { SearchUserService } from './searchUser.service';
-import { FormsModule } from '@angular/forms';
+import { prepareProfile } from 'selenium-webdriver/firefox';
 
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule
-  ],
-  providers: [SearchUserService],
-  bootstrap: [AppComponent]
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
-export class AppModule { }
+export class AppComponent {
+  title = 'Git User Search Portal';
+  profile: any;
+  repos: any;
+  username: string;
+
+  constructor(private service: SearchUserService) {
+}
+findProfile() {
+  this.service.updateProfile(this.username);
+  this.service.getuser().subscribe(profile => {
+    this.profile = profile;
+    console.log(profile);
+  });
+
+  this.service.getUserRepos().subscribe(repos => {
+    this.repos = repos;
+    console.log(repos);
+  });
+}
+
+}

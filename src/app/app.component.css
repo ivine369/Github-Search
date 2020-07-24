@@ -3,19 +3,17 @@
     width: 700px;
     height: 50px;
     text-align: center;
-    border: 2px skyblue;
+    border: 2px solid black;
 }
-
 h1{
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
-    font-style: italic;
 }
-
 .container-fluid{
-    background-image: url("https://preview.redd.it/wmz503w5t4511.jpg?width=5120&format=pjpg&auto=webp&s=7fcd76fba6ceb006fdd485d343bd0646fc337c3aurl")                                                        ;
-    height: 500px;
-    width: 90%;
+    background-image: url("https://wallpapercave.com/wp/AlwxnjW.jpg");
+    height: 800px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+
 }

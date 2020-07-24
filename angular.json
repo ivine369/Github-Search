@@ -41,6 +41,7 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
+              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -121,7 +122,7 @@
       }
     }
   },
-  "defaultProject": "Github-Search",
+   "defaultProject": "Github-Search",
   "cli": {
     "analytics": "8494ac7c-ba96-4456-b7b5-beb823679155"
   }

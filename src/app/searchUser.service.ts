@@ -1,4 +1,4 @@
- 
+
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
@@ -14,7 +14,7 @@ export class SearchUserService {
 
     constructor(private http: HttpClient) {
         console.log('Service has already Started.....');
-        this.username = 'ivine369';
+        this.username = 'dennisnyamweya';
      }
 
     getuser() {
